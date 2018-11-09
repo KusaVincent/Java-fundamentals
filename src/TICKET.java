@@ -4,7 +4,7 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
-public class TICKET extends JFrame{
+public class Ticket extends JFrame{
     private final JTextField t1;
      private final JTextField t2;
       private final JTextField t3;
@@ -32,7 +32,7 @@ public class TICKET extends JFrame{
    
     private final JButton j;
     
-    public  TICKET(){
+    public  Ticket(){
     super("TRAIN TICKETING");
     layout=new FlowLayout(); 
     container=getContentPane();

@@ -1,11 +1,11 @@
 import javax.swing.*;
-public class BUS {
+public class Bus {
     public static void main(String[] args){
-   BOOKING BUS; 
-        BUS = new BOOKING();
-      BUS.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      BUS.setSize(650,500);
-      BUS.setVisible(true); 
+   Bookin Bu; 
+        Bu = new Bookin();
+      Bu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      Bu.setSize(650,500);
+      Bu.setVisible(true); 
       
     }
 }

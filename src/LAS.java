@@ -5,7 +5,7 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
-public class LAS extends JFrame 
+public class Las extends JFrame 
 {
      int NAIROBI  = 250;
    int KISUMU = 500;
@@ -56,7 +56,7 @@ public class LAS extends JFrame
            
             private final JButton j;
              private final JButton V;
-public LAS(){
+public Las(){
     super("CLASS");
       
     layout=new FlowLayout(); 
@@ -177,6 +177,18 @@ Handlers handler = new Handlers();
 j.addActionListener(handler);
 } 
 
+    void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   /* void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void actionPerformed(ActionEvent e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }*/
+
  private class Handler implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent event){
@@ -198,8 +210,8 @@ j.addActionListener(handler);
     public void actionPerformed(ActionEvent event){
         if(event.getSource()==j)
         {
-            TICKET ticket;
-            ticket = new TICKET();
+            Ticket ticket;
+            ticket = new Ticket();
             ticket.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             ticket.setSize(650,500); 
             ticket.setVisible(true);

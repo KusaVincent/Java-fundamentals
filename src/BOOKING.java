@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 
-class BOOKING extends JFrame{
+class Bookin extends JFrame{
  private final JButton s1;
  private final JButton s2;
  private final JButton s3;        
@@ -17,7 +17,7 @@ class BOOKING extends JFrame{
  private final Container container;
  
   
-    public BOOKING(){//constructor
+    public Bookin(){//constructor
     
   super("    BUS BOOKING    "); //container's title
    // getContentPane().setBackground(new java.awt.Color(0,0,250));  
@@ -71,7 +71,7 @@ class BOOKING extends JFrame{
  
     }
 
-    private class thehandler implements ActionListener{
+    class thehandler implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent event){
     if(event.getSource()==s1)
@@ -79,8 +79,8 @@ class BOOKING extends JFrame{
         s1.setEnabled(false);
         s1.setBackground(Color.pink);
          s1.setToolTipText("booked");
-         LAS las; 
-        las = new LAS();
+         Las las; 
+        las = new Las();
       las.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       las.setSize(650,500);
       las.setVisible(true); 
@@ -90,8 +90,8 @@ class BOOKING extends JFrame{
         s2.setEnabled(false);
          s2.setToolTipText("booked");
         s2.setBackground(Color.pink);
-        LAS las; 
-        las = new LAS();
+        Las las; 
+        las = new Las();
       las.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       las.setSize(650,500);
       las.setVisible(true); 
@@ -101,8 +101,8 @@ class BOOKING extends JFrame{
         s3.setEnabled(false);
          s3.setToolTipText("booked");
         s3.setBackground(Color.pink);
-        LAS las; 
-        las = new LAS();
+        Las las; 
+        las = new Las();
       las.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       las.setSize(650,500);
       las.setVisible(true); 
@@ -112,8 +112,8 @@ class BOOKING extends JFrame{
         s4.setEnabled(false);
          s4.setToolTipText("booked");
         s4.setBackground(Color.pink);
-        LAS las; 
-        las = new LAS();
+        Las las; 
+        las = new Las();
       las.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       las.setSize(650,500);
       las.setVisible(true); 
@@ -123,8 +123,8 @@ class BOOKING extends JFrame{
         s5.setEnabled(false);
         s5.setBackground(Color.pink);
          s5.setToolTipText("booked");
-         LAS las; 
-        las = new LAS();
+         Las las; 
+        las = new Las();
       las.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       las.setSize(650,500);
       las.setVisible(true); 
@@ -134,8 +134,8 @@ class BOOKING extends JFrame{
         s6.setEnabled(false);
          s6.setToolTipText("booked");
         s6.setBackground(Color.pink);
-        LAS las; 
-        las = new LAS();
+        Las las; 
+        las = new Las();
       las.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       las.setSize(650,500);
       las.setVisible(true); 
@@ -146,8 +146,8 @@ class BOOKING extends JFrame{
          s7.setToolTipText("booked");
          s7.setBackground(Color.pink);
          
-          LAS las; 
-        las = new LAS();
+          Las las; 
+        las = new Las();
       las.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       las.setSize(650,500);
       las.setVisible(true); 

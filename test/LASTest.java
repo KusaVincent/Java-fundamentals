@@ -16,9 +16,9 @@ import static org.junit.Assert.*;
  *
  * @author KUSA
  */
-public class LASTest {
+public class LasTest {
     
-    public LASTest() {
+    public LasTest() {
     }
     
     @BeforeClass
@@ -44,7 +44,7 @@ public class LASTest {
     public void testActionPerformed() {
         System.out.println("actionPerformed");
         ActionEvent e = null;
-        LAS instance = new LAS();
+        Las instance = new Las();
         instance.actionPerformed(e);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
