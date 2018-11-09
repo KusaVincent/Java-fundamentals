@@ -15,9 +15,9 @@ import static org.junit.Assert.*;
  *
  * @author KUSA
  */
-public class BookingTest {
+public class BookinTest {
     
-    public BookingTest() {
+    public BookinTest() {
     }
     
     @BeforeClass
